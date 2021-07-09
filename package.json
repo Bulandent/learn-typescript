@@ -1,0 +1,19 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bulandent/learn-typescript.git",
+  "author": "bulandent <1326895569@qq.com>",
+  "scripts": {
+    "lint": "eslint src --ext .ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-alloy": "^4.1.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
