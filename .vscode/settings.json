@@ -2,6 +2,12 @@
 	"files.eol": "\n",
 	"editor.tabSize": 2,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll": true,
 		"source.fixAll.eslint": true

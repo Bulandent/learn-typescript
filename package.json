@@ -5,7 +5,8 @@
   "repository": "https://github.com/Bulandent/learn-typescript.git",
   "author": "bulandent <1326895569@qq.com>",
   "scripts": {
-    "lint": "eslint src --ext .ts"
+    "lint": "eslint src --ext .ts",
+    "prepare": "husky install"
   },
   "license": "MIT",
   "devDependencies": {
@@ -13,7 +14,13 @@
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.30.0",
     "eslint-config-alloy": "^4.1.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
+  },
+  "lint-staged": {
+    "*.ts": "eslint --cache --fix",
+		"*.{ts,js}": "prettier --write"
   }
 }
