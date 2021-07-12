@@ -1,5 +1,5 @@
 // void 表示空值，可以用来表示一个函数是没有返回值的
-function print(msg): void {
+function print(msg: string): void {
 	console.log(msg)
 }
 
