@@ -21,4 +21,4 @@ const infinityNumber: number = Infinity
 console.log(binaryLiteral, octalLiteral, decLiteral, hexLiteral)
 // 5 458 6 3840
 
-// 二进制和八进制被编译后会转成十进制，但是十六进制不会转
+// 二进制和八进制被编译后会转成十进制，但是十六进制不会转。
