@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"esModuleInterop": true,
+		"typeRoots": ["./types"],
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"*": ["types/*"]
+		}
+	},
+	"include": [
+		"src/**/*.ts",
+		"types/*.d.ts",
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
