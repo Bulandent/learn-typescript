@@ -74,6 +74,10 @@
   version "7.0.8"
   resolved "http://npm.joymo.tech/@types%2fjson-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
 
+"@types/node@^16.3.1":
+  version "16.3.1"
+  resolved "http://npm.joymo.tech/@types%2fnode/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "http://npm.joymo.tech/@types%2fparse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
